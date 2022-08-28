@@ -88,7 +88,7 @@
         echo '</form>';
         echo '</div>';
         echo '</div>';
-        <!-- echo '<li><button onclick="togglePopup()">로그인</button></li>';
+        echo '<li><button onclick="togglePopup()">로그인</button></li>';
         if(isset($_GET["error"])) {
           if($_GET["error"] == "LoginEmptyInput") {
             echo "<script>alert('모든 칸에 입력해주시기 바랍니다!')</script>";
@@ -104,7 +104,7 @@
         }
       }
         echo '</ul>';
-      ?> -->
+      ?>
 
     <a href="#" class="navbar__toggleBtn">
       <i class="fas fa-bars"></i>
